@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(41, 65, 65);
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+/*task form*/
+#task-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#task-form {
+    position: relative;
+}
+
+#task-form input {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 15px;
+    width: 100%;
+}
+
+#add-button {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 20px;
+    width: 49px;
+    height: 49px;
+    top: 0px;
+    right: 0px;
+}
+
+#add-button:hover {
+    background-color: rgb(52, 255, 255);
+}
+
+/*task list*/
+#task-list-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+#task-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#task-list li {
+    text-align: left;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    background-color: white;
+    color: rgb(7, 6, 6);
+    margin-top: 10px;
+    padding-left: 10px;
+    transition: .5s;
+}
+
+#check-button, #close-button {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 30px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 25px;
+}
+
+#check-button {
+    right: 40px;
+}
+
+#close-button {
+    right: 0;
+}
+
+#check-button:hover {
+    background-color: green;
+    color: white;
+    height: 50px;
+}
+
+#close-button:hover {
+    background-color: red;
+    color: white;
+    color: white;    height: 50px;
+}
+
+#task-list li.done{
+    background-color:aquamarine;
+    color: white;
+    text-decoration: line-through;
+}
+
+
+footer {
+    text-align:center;
+  }
+
+.social-icons a {
+    color: rgb(0, 0, 0);
+  }
